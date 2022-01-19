@@ -9,11 +9,13 @@ import Linker from './components/linker/linker';
 class App extends Component {
   render(){
     return<div className = "App">
-    <AboutUs/>
-    <VenueInfo/>
+    
+    
+    <VenueInfo/> 
+    <Map/>
     <About/>
     <Linker/>
-    <Map/>
+    <AboutUs/> 
     </div>
   };
 }

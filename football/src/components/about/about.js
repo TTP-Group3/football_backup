@@ -1,12 +1,12 @@
 import React from 'react';
-import "./style.css";
+import "./about.css";
 
 export default function About() {
     return (
-        <main>
+        <div classsName="container-class">
             <div className='about'>
                 <div className='about-info'>
-                    <h1>About the <span>World Cup</span></h1>
+                    <h1>About the <p>World Cup</p></h1>
                     <p>The FIFA World Cup, often simply called the World Cup, is an international association football competition contested by the senior men's 
                         national teams of the members of the Fédération Internationale de Football Association (FIFA), the sport's global governing body. 
                         The championship has been awarded every four years since the inaugural tournament in 1930. The current champion is France, which 
@@ -17,14 +17,14 @@ export default function About() {
                         Brazil, France, Italy, Germany, and Mexico have each hosted twice, while Uruguay, Switzerland, Sweden, Chile, England, Argentina, Spain, the United States, 
                         Japan and South Korea (jointly), South Africa, and Russia have each hosted once. Qatar will host the 2022 tournament, and 2026 will be jointly hosted by Canada, 
                         the United States, and Mexico, which will give Mexico the distinction of being the first country to host games in three World Cups. </p>
-                        <br></br>
+                        <br/><br/>
                         <a href="https://en.wikipedia.org/wiki/2022_FIFA_World_Cup" target = "_blank">Read More..</a>
                         
                 </div>    
                     <div className='about-border'>
                         <div className='about-home-img'>
                             <a href="#">
-                            <img src ={require('../images/home.png')}/>
+                            <img src={require('../images/home.png')}/>
                             </a>
 
                         </div>
@@ -35,6 +35,6 @@ export default function About() {
                     </div>
             </div>
             
-        </main>
+        </div>
     )
 }
